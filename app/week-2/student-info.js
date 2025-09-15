@@ -9,7 +9,6 @@ export default function StudentInfo(){
         <Link href="https://github.com/NoahwTaylor/cprg306-assignments">
           My Repository
         </Link>
-
       </p>
     </div>
   );
