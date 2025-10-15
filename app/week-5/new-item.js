@@ -18,12 +18,12 @@ export default function NewItem()
   return(
  
     <section className="flex flex-col items-center rounded-lg mt-5 text-black">
-      <p className="text-white text-2xl font-bold mb-3 align-baseline"> Week 5 - New Item</p>
+      <p className="text-white text-2xl font-bold mb-3"> Week 5 - New Item</p>
       <div className=" bg-white h-full w-full max-w-md rounded-sm p-5">
         <form onSubmit={handleSubmit} className="flex flex-col justify-center rounded-lg mt-5">
 
           <label htmlFor="item-name">Item Name:</label>
-          <input type="text" name="item-name" onChange={handleName} className="w-full max-w-md border border-gray-300 rounded-md p-2 mb-6 text-black" placeholder="e.g., milk, 4L" required />
+          <input type="text" name="item-name" onChange={handleName} className="w-full border border-gray-300 rounded-md p-2 mb-6 text-black" placeholder="e.g., milk, 4L" required />
       
           <p>Quantity: <b>{quantity}</b></p>
           <div>
@@ -33,7 +33,7 @@ export default function NewItem()
           <p className="text-xs mb-6">Allowed Range: 1-20</p>
 
           <label htmlFor="category">Category:</label>
-          <select name="category" onChange={handleCategory} className="w-full max-w-md border border-gray-300 rounded-md p-2 mb-3 text-black">
+          <select name="category" onChange={handleCategory} className="w-full border border-gray-300 rounded-md p-2 mb-3 text-black">
             <option value="Produce">Produce</option>
             <option value="Dairy">Dairy</option>
             <option value="Bakery">Bakery</option>
@@ -47,7 +47,7 @@ export default function NewItem()
             <option value="Other">Other</option>
           </select>
 
-          <button type="submit" className="mt-3 w-full max-w-md bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-md shadow-md">Add Item</button>
+          <button type="submit" className="mt-3 w-full bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-md shadow-md">Add Item</button>
         </form>
       </div>
     </section>
