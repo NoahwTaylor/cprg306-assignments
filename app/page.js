@@ -28,6 +28,10 @@ export default function Home() {
       <Link href="week-7" className="mr-2">
         → Go to Week 7
       </Link>
+
+      <Link href="week-8" className="mr-2">
+        → Go to Week 8
+      </Link>
     </div>
   );
 }
