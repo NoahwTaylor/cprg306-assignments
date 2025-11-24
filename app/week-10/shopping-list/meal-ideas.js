@@ -30,7 +30,7 @@ export default function MealIdeas({ingredient})
   return(
     <div className="mt-10 w-1/4">
       <header>
-        <h3>Meal Ideas for "{ingredient}"</h3>
+        <h3>Meal Ideas for &quot;{ingredient}&quot;</h3>
       </header>
       <div className="grid grid-cols-2 gap-1">
         {meals.map((meal) =>(
