@@ -13,7 +13,6 @@ export default function NewItem({onAddItem})
   const handleSubmit = (e) => { 
     e.preventDefault(); 
     const newItem = {
-        id: Math.random().toString(36).substring(2),
         name,
         quantity,
         category
@@ -28,7 +27,7 @@ export default function NewItem({onAddItem})
   return(
  
     <section className="flex flex-col items-center rounded-lg mt-5 text-black">
-      <p className="text-white text-2xl font-bold mb-3"> Week 8 - New Item</p>
+      <p className="text-white text-2xl font-bold mb-3"> Week 10 - New Item</p>
       <div className=" bg-white h-full w-full max-w-md rounded-sm p-5">
         <form onSubmit={handleSubmit} className="flex flex-col justify-center rounded-lg mt-5">
 
